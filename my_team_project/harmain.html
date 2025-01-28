@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restaurant Review Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Foodie's Paradise</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Welcome to Foodie's Paradise</h2>
+      <p>Where great food meets great reviews!</p>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews-section">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <h3>John Doe</h3>
+      <p>"The food was incredible! The atmosphere was cozy, and the service was top-notch. Highly recommended!"</p>
+      <span>⭐⭐⭐⭐⭐</span>
+    </div>
+
+    <div class="review">
+      <h3>Jane Smith</h3>
+      <p>"A wonderful dining experience. The pasta was cooked to perfection, and the dessert was divine."</p>
+      <span>⭐⭐⭐⭐</span>
+    </div>
+
+    <div class="review">
+      <h3>Emily Brown</h3>
+      <p>"The food was good, but the wait was a little long. Still worth the visit!"</p>
+      <span>⭐⭐⭐</span>
+    </div>
+
+    <div class="review-form">
+      <h3>Leave a Review</h3>
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="review">Your Review:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Foodie's Paradise. All rights reserved.</p>
+  </footer>
+</body>
+</html>
