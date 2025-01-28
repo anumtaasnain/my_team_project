@@ -1,0 +1,7 @@
+body{
+    background: aqua;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
